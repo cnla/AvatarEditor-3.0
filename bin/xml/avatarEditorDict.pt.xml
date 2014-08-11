@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dictionary lang="pt">
+	<main>
+		<save><![CDATA[SALVAR]]></save>
+		<cancel><![CDATA[CANCELAR]]></cancel>
+		<random><![CDATA[ALEATÓRIO]]></random>
+		<ok><![CDATA[ACEITAR]]></ok>
+	</main>
+	<newLook>
+		<new><![CDATA[NOVO]]></new>
+		<look><![CDATA[LOOK]]></look>
+		<tryItOn><![CDATA[Experimentar!]]></tryItOn>
+		<sponsoredBy><![CDATA[Patrocinado por]]></sponsoredBy>
+		<selectedText><![CDATA[Você está usando]]></selectedText>
+	</newLook>
+	<costumeManager>
+		<costumes><![CDATA[FANTASIAS]]></costumes>
+		<tryThemOn><![CDATA[Experimentar!]]></tryThemOn>
+	</costumeManager>
+	<credits>
+		<myCredits><![CDATA[Meus créditos]]></myCredits>
+		<addCredits><![CDATA[Adicionar créditos]]></addCredits>
+	</credits>
+	<buyAccessory>
+		<popupTitle><![CDATA[Comprar item]]></popupTitle>
+		<popupMessage><![CDATA[Você precisa de ${price} créditos. Tem certeza que deseja continuar?]]></popupMessage>
+		<popupOk><![CDATA[COMPRAR]]></popupOk>
+		<notEnoughCredits><![CDATA[Você não tem créditos suficientes!]]></notEnoughCredits>
+		<connectionError><![CDATA[Houve um erro,
+por favor tente novamente em alguns minutos.]]></connectionError>
+		<lockedAccessoryTitle><![CDATA[Atención]]></lockedAccessoryTitle>
+		<lockedAccessoryMessage><![CDATA[Este é um acessório premium, você precisa comprá-lo antes de poder usá-lo.]]></lockedAccessoryMessage>
+	</buyAccessory>
+</dictionary>

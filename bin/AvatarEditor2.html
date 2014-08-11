@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Avatar Editor for CN 3.0</title>
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+		<script src="http://ardmtdata1.turner.com/toonla-released/images/cn30/js/cnlalibrary-latest.js"></script>
+		<script type="text/javascript">
+			var avatarEditor;
+			
+			// Listeners
+			function onAppReady()
+			{
+				console.log("onAppReady()");
+				avatarEditor = $("#avatarEditor")[0];
+				
+				initAvatarEditor();
+			}
+			
+			function onBuyAccessory(accessoryId)
+			{
+				console.log("onBuyAccessory("+accessoryId+")");
+			}
+			
+			function onShowCredits()
+			{
+				console.log("onShowCredits()");
+			}
+			
+			function onCancel()
+			{
+				console.log("onCancel()");
+			}
+			
+			function onSave(avatar)
+			{
+				console.log("onSave("+avatar+")");
+			}
+
+			// Auxiliary functions
+			function initAvatarEditor()
+			{
+				var initParams = {
+					"user": getTestUser(),
+					"avatar": getTestAvatar(),
+					"cdnPath": "",
+					"configPath": "xml/avatarEditorConfig.xml"
+				};
+
+				avatarEditor.init(initParams);
+			}
+			
+			function getTestUser()
+			{
+				var useRealUser = (Math.random() > 0.5);
+				var user;
+
+				if(useRealUser){
+					user = {
+						"id": 35244229,
+						"name": "SubtePass",
+						"credits": 10702
+					};
+				} else {
+					user = {
+						"id": 0,
+						"name": null,
+						"credits": 0
+					};
+				}
+
+				return user;
+			}
+
+			function getTestAvatar()
+			{
+				var useRealAvatar = (Math.random() > 0.5);
+				var avatar = null;
+
+				if(useRealAvatar){
+					avatar= {
+						"body": 77327641,
+						"bodyColor": 13162796,
+						"costume": 0,
+						"eye": 77327698,
+						"head": 77327762,
+						"headColor": 8545194,
+						"imagePath": "",
+						"mouth": 77327810,
+						"skinColor": 15344167
+					};
+				}
+
+				return avatar;
+			}
+
+			// Embed flash
+			var flashvars = {
+				"country": "ar",
+			};
+
+			swfobject.embedSWF("AvatarEditor.swf", "avatarEditor", "900", "700", "10.0.0", false, flashvars, {"allowscriptaccess": "always", "allownetworking": "all", "allowfullscreen": "false", "wmode": "opaque", "bgcolor": "#666666", "scale": "noscale", "salign": "tl"});
+		</script>
+	</head>
+	<body style="background-color: #666666">
+		<div style="width: 530px; height: 450px;">
+			<div id="avatarEditor"></div>
+		</div>
+	</body>
+</html>

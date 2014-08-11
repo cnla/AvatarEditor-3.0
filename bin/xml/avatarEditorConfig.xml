@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<showSharePanel>false</showSharePanel>
+	<showCreditsPanel>true</showCreditsPanel>
+	<backgrounds>
+		<path>${cdnPath}backgrounds/01.png</path>
+		<path>${cdnPath}backgrounds/02.png</path>
+		<path>${cdnPath}backgrounds/03.png</path>
+		<path>${cdnPath}backgrounds/04.png</path>
+		<path>${cdnPath}backgrounds/05.png</path>
+		<path>${cdnPath}backgrounds/06.png</path>
+		<path>${cdnPath}backgrounds/07.png</path>
+	</backgrounds>
+	<dictionary>
+		<path lang="en">${cdnPath}xml/avatarEditorDict.en.xml</path>
+		<path lang="es">${cdnPath}xml/avatarEditorDict.es.xml</path>
+		<path lang="pt">${cdnPath}xml/avatarEditorDict.pt.xml</path>
+	</dictionary>
+	<defaultAvatar>
+		<position>FRONT</position>
+		<headColor>0xFFFFFF</headColor>
+		<bodyColor>0xFFFFFF</bodyColor>
+		<skinColor>0xFFFFFF</skinColor>
+		<costumeAccessory>
+			<id env="PROD">0</id>
+			<id env="CONTRIB">0</id>
+		</costumeAccessory>
+		<headAccessory>
+			<id env="PROD">311392926</id>
+			<id env="CONTRIB">77327794</id>
+		</headAccessory>
+		<eyeAccessory>
+			<id env="PROD">311401438</id>
+			<id env="CONTRIB">77327704</id>
+		</eyeAccessory>
+		<mouthAccessory>
+			<id env="PROD">311403046</id>
+			<id env="CONTRIB">77327808</id>
+		</mouthAccessory>
+		<bodyAccessory>
+			<id env="PROD">311420100</id>
+			<id env="CONTRIB">77327657</id>
+		</bodyAccessory>
+	</defaultAvatar>
+	<feature>
+		<!--
+			Accessory types:
+			- COSTUME
+			- HEAD
+			- EYE
+			- MOUTH
+			- BODY
+		-->
+		<featureData country="ar">
+			<!-- La CQ Ángel-->
+
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335484</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_angel.png</preview>
+			</item>
+			
+			<!-- La CQ Jenny -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335490</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_jenny.png</preview>
+			</item>
+			
+			<!-- La CQ Monche -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335486</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_monche.png</preview>
+			</item>
+			
+			<!-- Gumball -->
+			
+			<item>
+				<accessory>
+					<type>COSTUME</type>
+					<id env="prod">314952929</id>
+					<id env="contrib">77327666</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_gumball.png</preview>
+			</item>
+		</featureData>
+		<featureData country="br">
+			<!-- La CQ Ángel-->
+
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335484</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_angel.png</preview>
+			</item>
+			
+			<!-- La CQ Jenny -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335490</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_jenny.png</preview>
+			</item>
+			
+			<!-- La CQ Monche -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335486</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_monche.png</preview>
+			</item>
+			
+			<!-- Gumball -->
+			
+			<item>
+				<accessory>
+					<type>COSTUME</type>
+					<id env="prod">314952929</id>
+					<id env="contrib">77327666</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_gumball.png</preview>
+			</item>
+		</featureData>
+		<featureData country="cl">
+			<!-- La CQ Ángel-->
+
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335484</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_angel.png</preview>
+			</item>
+			
+			<!-- La CQ Jenny -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335490</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_jenny.png</preview>
+			</item>
+			
+			<!-- La CQ Monche -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335486</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_monche.png</preview>
+			</item>
+			
+			<!-- Carrera Cartoon -->
+			
+			<item>
+				<accessory>
+					<type>HEAD</type>
+					<id env="prod">333374202</id>
+					<id env="contrib">77329302</id>
+				</accessory>
+				<accessory>
+					<type>EYE</type>
+					<id env="prod">311401193</id>
+					<id env="contrib">77327698</id>
+				</accessory>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod">311419578</id>
+					<id env="contrib">77327647</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_carrera.png</preview>
+			</item>
+			
+			<!-- Gumball -->
+			
+			<item>
+				<accessory>
+					<type>COSTUME</type>
+					<id env="prod">314952929</id>
+					<id env="contrib">77327666</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_gumball.png</preview>
+			</item>
+		</featureData>
+		<featureData country="co">
+			<!-- La CQ Ángel-->
+
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335484</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_angel.png</preview>
+			</item>
+			
+			<!-- La CQ Jenny -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335490</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_jenny.png</preview>
+			</item>
+			
+			<!-- La CQ Monche -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335486</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_monche.png</preview>
+			</item>
+			
+			<!-- Carrera Cartoon -->
+			
+			<item>
+				<accessory>
+					<type>HEAD</type>
+					<id env="prod">333374202</id>
+					<id env="contrib">77329302</id>
+				</accessory>
+				<accessory>
+					<type>EYE</type>
+					<id env="prod">311401193</id>
+					<id env="contrib">77327698</id>
+				</accessory>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod">311419578</id>
+					<id env="contrib">77327647</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_carrera.png</preview>
+			</item>
+			
+			<!-- Gumball -->
+			
+			<item>
+				<accessory>
+					<type>COSTUME</type>
+					<id env="prod">314952929</id>
+					<id env="contrib">77327666</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_gumball.png</preview>
+			</item>
+		</featureData>
+		<featureData country="mx">
+			<!-- La CQ Ángel-->
+
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335484</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_angel.png</preview>
+			</item>
+			
+			<!-- La CQ Jenny -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335490</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_jenny.png</preview>
+			</item>
+			
+			<!-- La CQ Monche -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335486</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_monche.png</preview>
+			</item>
+			
+			<!-- Carrera Cartoon -->
+			
+			<item>
+				<accessory>
+					<type>HEAD</type>
+					<id env="prod">333374202</id>
+					<id env="contrib">77329302</id>
+				</accessory>
+				<accessory>
+					<type>EYE</type>
+					<id env="prod">311401193</id>
+					<id env="contrib">77327698</id>
+				</accessory>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod">311419578</id>
+					<id env="contrib">77327647</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_carrera.png</preview>
+			</item>
+			
+			<!-- Gumball -->
+			
+			<item>
+				<accessory>
+					<type>COSTUME</type>
+					<id env="prod">314952929</id>
+					<id env="contrib">77327666</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_gumball.png</preview>
+			</item>
+		</featureData>
+		<featureData country="la">
+			<!-- La CQ Ángel-->
+
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335484</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_angel.png</preview>
+			</item>
+			
+			<!-- La CQ Jenny -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335490</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_jenny.png</preview>
+			</item>
+			
+			<!-- La CQ Monche -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335486</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_monche.png</preview>
+			</item>
+			
+			<!-- Gumball -->
+			
+			<item>
+				<accessory>
+					<type>COSTUME</type>
+					<id env="prod">314952929</id>
+					<id env="contrib">77327666</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_gumball.png</preview>
+			</item>
+		</featureData>
+		<featureData country="laen">
+			<!-- La CQ Ángel-->
+
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335484</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_angel.png</preview>
+			</item>
+			
+			<!-- La CQ Jenny -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335490</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_jenny.png</preview>
+			</item>
+			
+			<!-- La CQ Monche -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335486</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_monche.png</preview>
+			</item>
+			
+			<!-- Gumball -->
+			
+			<item>
+				<accessory>
+					<type>COSTUME</type>
+					<id env="prod">314952929</id>
+					<id env="contrib">77327666</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_gumball.png</preview>
+			</item>
+		</featureData>
+		<featureData country="ve">
+			<!-- La CQ Ángel-->
+
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335484</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_angel.png</preview>
+			</item>
+			
+			<!-- La CQ Jenny -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335490</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_jenny.png</preview>
+			</item>
+			
+			<!-- La CQ Monche -->
+			
+			<item>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod"></id>
+					<id env="contrib">77335486</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_monche.png</preview>
+			</item>
+			
+			<!-- Carrera Cartoon -->
+			
+			<item>
+				<accessory>
+					<type>HEAD</type>
+					<id env="prod">333374202</id>
+					<id env="contrib">77329302</id>
+				</accessory>
+				<accessory>
+					<type>EYE</type>
+					<id env="prod">311401193</id>
+					<id env="contrib">77327698</id>
+				</accessory>
+				<accessory>
+					<type>BODY</type>
+					<id env="prod">311419578</id>
+					<id env="contrib">77327647</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on_carrera.png</preview>
+			</item>
+		</featureData>
+		<featureData>
+			<!-- Default -->
+			<item>
+				<accessory>
+					<type>HEAD</type>
+					<id env="prod">311394054</id>
+					<id env="contrib">77327746</id>
+				</accessory>
+				<sponsor>
+					<text></text>
+					<image></image>
+				</sponsor>
+				<preview>${cdnPath}try_ons/try_on.png</preview>
+			</item>
+		</featureData>
+	</feature>
+	<emotions>
+		<emotion default="true">
+			<name>emotion_idle</name>
+			<path>${cdnPath}emotions/emotion_idle_2.swf</path>
+		</emotion>
+		<emotion>
+			<name>emotion_new_jump</name>
+			<path>${cdnPath}emotions/emotion_new_jump.swf</path>
+		</emotion>
+		<emotion>
+			<name>emotion_checkout</name>
+			<path>${cdnPath}emotions/emotion_checkout.swf</path>
+		</emotion>
+		<emotion>
+			<name>emotion_rstart</name>
+			<path>${cdnPath}emotions/emotion_rstart.swf</path>
+		</emotion>
+		<emotion>
+			<name>emotion_rloop</name>
+			<path>${cdnPath}emotions/emotion_rloop.swf</path>
+		</emotion>
+		<emotion>
+			<name>emotion_rend</name>
+			<path>${cdnPath}emotions/emotion_rend.swf</path>
+		</emotion>
+	</emotions>
+	<fixedSkinAssets>
+		<item>
+			<name>Hum</name>
+			<type>costumeAccessory</type>
+			<id env="PROD">311404755</id>
+			<fixedSkin>0x5C730E</fixedSkin>
+		</item>
+		<item>
+			<name>Swamp</name>
+			<type>costumeAccessory</type>
+			<id env="PROD">311405130</id>
+			<fixedSkin>0x5693C5</fixedSkin>
+		</item>
+		<item>
+			<name>Cannon</name>
+			<type>costumeAccessory</type>
+			<id env="PROD">311405451</id>
+			<fixedSkin>0x7AAFCC</fixedSkin>
+		</item>
+		<item>
+			<name>Heatblast</name>
+			<type>costumeAccessory</type>
+			<id env="PROD">311405775</id>
+			<fixedSkin>0x73170C</fixedSkin>
+		</item>
+		<item>
+			<type>costumeAccessory</type>
+			<id env="PROD">344978318</id>
+			<fixedSkin>0xC09A6B</fixedSkin>
+		</item>
+		<item>
+			<type>costumeAccessory</type>
+			<id env="PROD">345726016</id>
+			<fixedSkin>0xB6BDC2</fixedSkin>
+		</item>
+		<item>
+			<type>costumeAccessory</type>
+			<id env="PROD">345727118</id>
+			<fixedSkin>0xD6D6D6</fixedSkin>
+		</item>
+		<item>
+			<type>costumeAccessory</type>
+			<id env="PROD">345726839</id>
+			<fixedSkin>0x6B6B6B</fixedSkin>
+		</item>
+		<item>
+			<type>costumeAccessory</type>
+			<id env="PROD">345726354</id>
+			<fixedSkin>0xD9D9D9</fixedSkin>
+		</item>
+		<item>
+			<type>costumeAccessory</type>
+			<id env="PROD">345730486</id>
+			<fixedSkin>0xE3E3E3</fixedSkin>
+		</item>
+		<item>
+			<type>costumeAccessory</type>
+			<id env="PROD">345726166</id>
+			<fixedSkin>0x5ECF26</fixedSkin>
+		</item>
+		<item>
+			<type>costumeAccessory</type>
+			<id env="PROD">345730780</id>
+			<fixedSkin>0xB5B5B5</fixedSkin>
+		</item>
+		<item>
+			<name>Ice King</name>
+			<type>costumeAccessory</type>
+			<id env="PROD">351021034</id>
+			<id env="CONTRIB">77334200</id>
+			<fixedSkin>0x97CCEF</fixedSkin>
+		</item>
+		<item>
+			<name>Lumpy</name>
+			<type>costumeAccessory</type>
+			<id env="PROD">351021329</id>
+			<id env="CONTRIB">77334203</id>
+			<fixedSkin>0x9F76B7</fixedSkin>
+		</item>
+		<item>
+			<name>Princess Bubblegum</name>
+			<type>costumeAccessory</type>
+			<id env="PROD">351021548</id>
+			<id env="CONTRIB">77334206</id>
+			<fixedSkin>0xFFCCFF</fixedSkin>
+		</item>
+	</fixedSkinAssets>
+</config>
